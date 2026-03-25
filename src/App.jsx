@@ -5,6 +5,7 @@ import './index.css';
 const Home = () => <div><h2>Welcome to Kevin Teah's Keen Turkey</h2></div>;
 import Introduction from './pages/Introduction';
 import FccCerts from './FccCerts';
+import Contract from './Contract';
 
 function App() {
   return (

@@ -6,7 +6,7 @@ const Navbar = () => {
             {/*Primary Menu */}
             <Link to="/">Home</Link> |
             <Link to="/introduction">Introduction</Link> |
-            <Link to="/contract">Contract</Link>
+            <Link to="/contract">Contract</Link> |
             <Link to="/fcc-cert">FCC Certs</Link>
 
             <br />
