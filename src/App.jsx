@@ -1,11 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
+import Navbar from './components/Navbar';
 
 // Temporary placeholders
 const Home = () => <div><h2>Welcome to Kevin Teah's Keen Turkey</h2></div>;
 import Introduction from './pages/Introduction';
-import FccCerts from './FccCerts';
-import Contract from './Contract';
+import FccCerts from './pages/FccCerts';
+import Contract from './pages/Contract';
 
 function App() {
   return (
