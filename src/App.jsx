@@ -1,35 +1,36 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
-import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Header from './components/Header';
 
 // Temporary placeholders
 const Home = () => <div><h2>Welcome to Kevin Teah's Keen Turkey</h2></div>;
 import Introduction from './pages/Introduction';
 import FccCerts from './pages/FccCerts';
 import Contract from './pages/Contract';
-
 function App() {
   return (
     <Router>
-      <header>
-        <h1>Kevin Teah's Keen Turkey | ITIS 3135</h1>
+      < Header />
         <Navbar />
-      </header>
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/introduction" element={<Introduction />} />
-          <Route path="/fcc-cert" element={<FccCerts />} />
+          <Route path="/survey" element={<Survey />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/inventory" element={<Inventory />} />
+          <Route path="/instructions" element={<Instructions />} />
+          <Route path="/highlight" element={<Highlight />} />
           <Route path="/contract" element={<Contract />} />
+          <Route path="/radi-tude" element={<Radi-Tude />} />
+          <Route path="/introduction" element={<Introduction />} />
+          <Route path="/website evaluations" element={<Evaluations />} />
+          <Route path="/hobby" element={<Hobby />} />
           {/*Adding extra routes here later */}
         </Routes>
       </main>
 
-      <footer>
-        <p>Built by Kevin Teah &copy; 2026</p>
-        <a href="https://github.com/Tech25-jpg" target="_blank">Github</a> |
-        <a href="#" id="vercel-link">ITIS3135@Vercel</a>
-      </footer>
+      < Footer />
       </Router>
   );
 }
