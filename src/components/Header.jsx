@@ -11,7 +11,7 @@ const Header = () => {
       <nav id="primary-nav">
         <Link to="/">Home</Link> | 
         <Link to="/survey">Survey</Link> | 
-        <Link to="/gallery">Gallery</Link> | 
+        <Link to="/cards">Gallery</Link> | 
         <Link to="/inventory">Inventory</Link> | 
         <Link to="/documentation">Instructions</Link> | 
         <Link to="/product">Highlight</Link> | 
@@ -20,9 +20,9 @@ const Header = () => {
 
       {/* Header Component / Secondary Navigation */}
       <nav id="secondary-nav">
-        <Link to="/radi-tude">Radi-Tude Zone</Link> | 
+        <Link to="/hTm_@🤣.htm">Radi-Tude Zone</Link> | 
         <Link to="/introduction">Introduction Page</Link> | 
-        <Link to="/evaluations">Website Evaluations</Link> | 
+        <Link to="/website_evaluations">Website Evaluations</Link> | 
         <Link to="/hobby">Hobby</Link>
       </nav>
     </header>
