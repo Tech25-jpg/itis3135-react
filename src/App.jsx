@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
+
+const Home = () => <div><h2>Welcome to Kevin Teah's Keen Turkey</h2></div>;
 // Components
 import Footer from './components/Footer';
 import Header from './components/Header';
-
-const Home = () => <div><h2>Welcome to Kevin Teah's Keen Turkey</h2></div>;
 
 // Pages
 import Introduction from './pages/Introduction';
@@ -14,7 +14,7 @@ import Survey from './pages/Survey';
 import Gallery from './pages/Gallery';
 import Inventory from './pages/Inventory';
 import Highlight from './pages/Highlight';
-import Documentation from './pages/Documentation';
+import Instructions from './pages/Instructions';
 import Hobby from './pages/Hobby';
 import Evaluations from './pages/Evaluations';
 import RadiTude from './pages/RadiTude';
@@ -35,6 +35,7 @@ function App() {
           <Route path="/introduction" element={<Introduction />} />
           <Route path="/website_evaluations" element={<Evaluations />} />
           <Route path="/hobby" element={<Hobby />} />
+          <Route path="/fcc" element={<FccCerts />} />
           {/*Adding extra routes here later */}
         </Routes>
       </main>
