@@ -1,14 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
+// Components
 import Footer from './components/Footer';
 import Header from './components/Header';
 
-// Temporary placeholders
-const Home = () => <div><h2>Welcome to Kevin Teah's Keen Turkey</h2></div>;
-const Gallery = () => <div><h2>Gallery Page</h2></div>
-const RadiTude = () => <div><h2>Radi-Tude Zone 🤣</h2></div>
-const Evaluations = () => <div><h2>Website Evaluations</h2></div>
-const Hobby = () => <div><h2>Hobby Page</h2></div>
+// Pages
 import Introduction from './pages/Introduction';
 import FccCerts from './pages/FccCerts';
 import Contract from './pages/Contract';
@@ -17,6 +13,9 @@ import Gallery from './pages/Gallery';
 import Inventory from './pages/Inventory';
 import Highlight from './pages/Highlight';
 import Documentation from './pages/Documentation';
+import Hobby from './pages/Hobby';
+import Evaluations from './pages/Evaluations';
+import RadiTude from './pages/RadiTude';
 function App() {
   return (
     <Router>
