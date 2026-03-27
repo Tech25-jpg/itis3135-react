@@ -4,6 +4,8 @@ import './index.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 
+const Home = () => <div><h2>Welcome to Kevin Teah's Keen Turkey</h2></div>;
+
 // Pages
 import Introduction from './pages/Introduction';
 import FccCerts from './pages/FccCerts';
