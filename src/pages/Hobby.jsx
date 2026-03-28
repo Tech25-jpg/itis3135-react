@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './Hobby.css';
 
 const Hobby = () => {
     const [activeSection, setActiveSection] = useState('what');
