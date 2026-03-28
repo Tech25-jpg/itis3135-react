@@ -6,7 +6,7 @@ const Introduction = () => {
       <h2>Sophomore — Information Technology</h2>
       
       <figure className="profile-figure">
-        {/* Ensure this image is in your public folder */}
+
         <img src="/1738707586340.jpg" alt="Kevin Teah Profile" />
         <figcaption>Professional LinkedIn Headshot</figcaption>
       </figure>
