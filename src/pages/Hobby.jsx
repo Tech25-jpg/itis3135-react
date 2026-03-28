@@ -55,56 +55,62 @@ const Hobby = () => {
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Festivities</td>
-                            <td>Steam Sales</td>
-                            <td>Esports Tournaments</td>
-                            <td>1-2 hours daily</td>
+                            <td>Festivities (Winter Solstice)</td>
+                            <td>Steam Seasonal Sales & AAA Releases</td>
+                            <td>Esports Tournaments & LAN Parties</td>
+                            <td>1-2 hours daily, more on weekends</td>
                         </tr>
                         <tr>
                             <td>Summer</td>
-                            <td>Conventions</td>
-                            <td>Meetups</td>
-                            <td>Increased</td>
+                            <td>Summer Sales & Gaming Conventions</td>
+                            <td>Esports Championships & Community Meetups</td>
+                            <td>Increased during vacations</td>
                         </tr>
                     </tbody>
                 </table>
                 <figure>
                     <img src="/gamingcalendar.jpg" alt="Gaming Calendar" />
+                    <figcaption>Seasonal events and community gatherings throughout the year</figcaption>
                 </figure>
             </section>
         ),
         where: (
             <section className="active">
                 <h2>Fourth Macguffin: Where Do People Play Games?</h2>
-                <p>From the comfort of one's home to public gaming centers and on-the-go with mobile devices.</p>
+                <p>Gaming can be enjoyed in various settings, from the comfort of one's home to public gaming centers, on-the-go with mobile devices, and even arcade games. The rise of online gaming has also created virtual spaces where players can connect and play together regardless of their physical location.</p>
                 <figure>
                     <img src="/gaminglocations.jpg" alt="Gaming Locations" />
+                    <figcaption>Various locations where people play games.</figcaption>
                 </figure>
                 <p className="ai-prompt">Prompt: Describe various locations where people play games.</p>
+                <p>Whether it's a cozy living room setup, a bustling internet cafe, or a mobile gaming session during a commute, gaming has become an accessible and versatile form of entertainment that can be enjoyed anywhere and anytime.</p>
             </section>
         ),
         why: (
             <section className="active">
                 <h2>Fifth Macguffin: Why Do People Play Games?</h2>
-                <p>For entertainment, social connection, stress relief, and personal growth.</p>
+                <p>People play games for a variety of reasons, including entertainment, social connection, stress relief, and personal growth. Gaming can provide an escape from reality, allowing players to immerse themselves in fantastical worlds, engaging narratives, and establish common ground with other users on a certain topic of interest. </p>
                 <figure>
                     <img src="/gamingreasons.jpg" alt="Pokemon Wind and Waves landscape" />
+                     <figcaption>Beautiful landscape from the upcoming Pokemon Wind and Waves</figcaption>
                 </figure>
                 <p className="ai-prompt">Prompt: Describe the various reasons why people play games.</p>
+                  <p>Additionally, gaming can serve as a form of stress relief and a way to unwind after a long day. It can also promote personal growth by challenging players to develop problem-solving skills, strategic thinking, and creativity. Overall, gaming offers a multifaceted experience that caters to a wide range of motivations and benefits for players.</p>
             </section>
         ),
         how: (
             <section className="active">
                 <h2>Sixth Macguffin: How Do People Play Games?</h2>
                 <ol>
-                    <li><strong>PC Gaming:</strong> Flexibility and customization.</li>
-                    <li><strong>Console Gaming:</strong> Streamlined and exclusive titles.</li>
-                    <li><strong>Handheld Devices:</strong> Portability.</li>
-                    <li><strong>Mobile Gaming:</strong> Accessibility.</li>
+                    <li><strong>PC Gaming:</strong> Many gamers prefer playing on a personal computer due to the flexibility and customization options it offers. PC gaming allows for high-end graphics, modding capabilities, and access to a vast library of games through platforms like Steam.</li>
+            <li><strong>Console Gaming:</strong> Consoles such as the PlayStation, Xbox, and Nintendo Switch provide a more streamlined gaming experience with exclusive titles and user-friendly interfaces. They are popular for their ease of use and social gaming features.</li>
+            <li><strong>Handheld Devices:</strong> Handheld gaming devices like the Nintendo Switch and Steam Deck offer portability without sacrificing performance. They allow gamers to enjoy their favorite titles on the go.</li>
+            <li><strong>Mobile Gaming:</strong> Mobile phones have become a dominant platform for gaming, with a wide variety of games available on app stores. Mobile gaming is accessible to a broad audience and often includes casual games that can be played in short sessions.</li>
                 </ol>
                 <figure>
                     <img src="/gamingplatforms.png" alt="Gaming Platforms" />
                 </figure>
+                 <p>Whether it's through a high-end gaming PC, a popular console like the PlayStation or Xbox, a portable device like the Nintendo Switch, or a mobile phone, gaming has become accessible to a wide audience. The evolution of technology has also led to innovations such as cloud gaming and virtual reality, further expanding the ways in which people can experience and enjoy games.</p>
             </section>
         ),
         'ai-prompts': (
