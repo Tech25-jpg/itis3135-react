@@ -60,6 +60,12 @@ const Hobby = () => {
                             <td>Esports Tournaments & LAN Parties</td>
                             <td>1-2 hours daily, more on weekends</td>
                         </tr>
+                         <tr>
+                            <td>Spring</td>
+                            <td>Spring Sales & Indie Game Showcases</td>
+                            <td>Game Jams & Online Multiplayer Events</td>
+                            <td>Moderate</td>
+                        </tr>
                         <tr>
                             <td>Summer</td>
                             <td>Summer Sales & Gaming Conventions</td>
@@ -116,6 +122,7 @@ const Hobby = () => {
         'ai-prompts': (
             <section className="active">
                 <h2>AI Prompts</h2>
+                 <p>Throughout this website, you will find various AI prompts that encourage you to reflect on different aspects of gaming. These prompts are designed to spark your creativity and critical thinking about the gaming industry, its impact on culture, and your personal experiences with gaming.</p>
                 <ul>
                     <li>Describe the evolution of gaming.</li>
                     <li>Describe the diversity of the community.</li>
