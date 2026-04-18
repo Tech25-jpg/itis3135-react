@@ -8,40 +8,27 @@ body {
 }
 
 h1 {
-    font-family: 'Courier New', monospace;
-    color: lightcyan;
+    font-family: 'Playfair Display', serif;
+    color: rgb(0, 0, 0);
 }
 
 header {
-    background-color: rgb(20, 71, 47);
-    color:rgb(124, 124, 94);
+    background-color: burlywood;
+    color:#7a7979;
     padding: 10px;
 }
 
 footer {
-    background-color: rgb(44, 80, 60);
-    color:rgb(188, 189, 139);
+    background-color: burlywood;
+    color:#7a7979;
     text-align: center;
     padding: 10px;
 }
 
 main {
-    background-color: rgb(24, 92, 52);
+    background-color: #ddd2d2;
     padding: 20px;
     border-radius: 8px;
-}
-
-a:link {
-    color:yellow;
-}
-a:visited {
-    color:orange;
-}
-a:hover {
-    color: rgb(255, 234, 236);
-}
-a:active {
-    color: rgb(119, 45, 139);
 }
 
 /* Additional styles - Primary Navigation (Course Pages */
