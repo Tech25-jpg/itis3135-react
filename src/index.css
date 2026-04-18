@@ -370,7 +370,7 @@ button:hover {
 }
 
 /* default.css for introductory page */
-body {
+.intro-container {
     font-family: 'Times New Roman', sans-serif;
     background-color: rgb(63, 108, 81);
     color: rgb(188, 189, 139);
@@ -378,39 +378,40 @@ body {
     margin: 0 auto;
 }
 
-h1 {
+.intro-container h1 {
     font-family: 'Courier New', monospace;
     color: lightcyan;
 }
 
-header {
+.intro-container header {
     background-color: rgb(20, 71, 47);
     color:rgb(124, 124, 94);
     padding: 10px;
 }
 
-footer {
+.intro-container footer {
     background-color: rgb(44, 80, 60);
     color:rgb(188, 189, 139);
     text-align: center;
     padding: 10px;
 }
 
-main {
+.intro-container main {
     background-color: rgb(24, 92, 52);
     padding: 20px;
     border-radius: 8px;
 }
 
-a:link {
+.intro-container a:link {
     color:yellow;
 }
-a:visited {
+.intro-container a:visited {
     color:orange;
 }
-a:hover {
+.intro-container a:hover {
     color: rgb(255, 234, 236);
 }
-a:active {
+.intro-container a:active {
     color: rgb(119, 45, 139);
 }
+
