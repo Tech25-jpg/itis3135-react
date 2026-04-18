@@ -1,7 +1,20 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
 
-const Home = () => <div><h2>Welcome to Kevin Teah's Keen Turkey</h2></div>;
+const Home = () => (
+  <div>
+    <h1>I am Kevin Teah and this is my ITIS First Course Page.</h1>
+    
+    <nav style={{ margin: '10px 0' }}>
+       | <a href="/contract">Contract</a>
+    </nav>
+
+    <section>
+      <h2>ITIS 3135 Course Page</h2>
+      <p>Kevin Teah's Keen Turkey ~ | ITIS 3135</p>
+    </section>
+  </div>
+);
 // Components
 import Footer from './components/Footer';
 import Header from './components/Header';
