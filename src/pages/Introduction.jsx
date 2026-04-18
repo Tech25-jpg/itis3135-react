@@ -1,9 +1,10 @@
 import React from 'react';
-import './Introduction.css';
+import '../Introduction.css';
 
 const Introduction = () => {
   return (
     <main>
+      <div className="intro-container">
       <h2>Sophomore — Information Technology</h2>
       
       <figure className="profile-figure">
