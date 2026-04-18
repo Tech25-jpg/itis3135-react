@@ -1,10 +1,55 @@
 import React from 'react';
-import '../Introduction.css';
 
 const Introduction = () => {
   return (
+    <div className="intro-container">
+            {/* INJECTED STYLES: This isolates the green theme to ONLY this page */}
+            <style dangerouslySetInnerHTML={{ __html: `
+                .intro-container {
+                    font-family: 'Times New Roman', serif;
+                    background-color: rgb(63, 108, 81);
+                    color: rgb(188, 189, 139);
+                    min-height: 100vh;
+                    padding: 20px;
+                }
+                .intro-container h1, .intro-container h2, .intro-container h3 {
+                    font-family: 'Courier New', monospace;
+                    color: lightcyan;
+                    text-align: center;
+                }
+                .intro-container main {
+                    background-color: rgb(24, 92, 52);
+                    padding: 30px;
+                    border-radius: 8px;
+                    max-width: 900px;
+                    margin: 20px auto;
+                    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+                }
+                .intro-container a:link { color: yellow; }
+                .intro-container a:visited { color: orange; }
+                .intro-container a:hover { color: white; text-shadow: 0 0 5px yellow; }
+
+                .profile-figure {
+                    text-align: center;
+                    margin: 20px 0;
+                }
+                .profile-figure img {
+                    max-width: 250px;
+                    border: 4px solid lightcyan;
+                    border-radius: 10px;
+                }
+                .info-lists ul {
+                    list-style-type: square;
+                }
+                .quote-box {
+                    border-left: 5px solid lightcyan;
+                    padding-left: 15px;
+                    font-style: italic;
+                    margin-top: 30px;
+                }
+            `}} />
+    
     <main>
-      <div className="intro-container"></div>
       <h2>Sophomore — Information Technology</h2>
       
       <figure className="profile-figure">
@@ -65,6 +110,7 @@ const Introduction = () => {
         </blockquote>
       </figure>
     </main>
+    </div>
   );
 };
 
