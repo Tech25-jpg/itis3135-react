@@ -45,3 +45,5 @@ const Slideshow = ({ images, interval = 3000 }) => {
         </div>
     );
 }
+
+export default Slideshow;

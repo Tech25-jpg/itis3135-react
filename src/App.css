@@ -183,7 +183,8 @@
   }
 }
 
-.slideshow-quest {
+/* Slideshow component styles */
+.slideshow-css {
     max-width: 450px;
     margin: 2rem auto;
     padding: 25px;
