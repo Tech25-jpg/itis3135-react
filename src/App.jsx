@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
-import Slideshow from './components/Slideshow';
+import Slideshow from './pages/Slideshow';
 
 const Home = () => (
   <div>
