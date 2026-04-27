@@ -6,14 +6,34 @@ const Slideshow = ({ interval = 5000 }) => {
     const [isPlaying, setIsPlaying] = useState(false);
     const timerRef = useRef(null);
 
-    useEffect(() => {
-        fetch('https://www.amiiboapi.com/api/amiibo/')
-            .then(response => response.json())
-            .then(data => {
-                setCharacters(data.amiibo.slice(0, 15));
-            })
-            .catch(error => console.error('Error fetching characters:', error));
-    }, []);
+useEffect(() => {
+    fetch('https://www.amiiboapi.com/api/amiibo/')
+        .then(response => response.json())
+        .then(data => {
+            setCharacters(data.amiibo.slice(0, 15));
+        })
+        .catch(error => {
+            console.error('Error fetching characters:', error);
+            // FALLBACK DATA: Use a few hardcoded images so the site doesn't stay blank
+            setCharacters([
+                {
+                    name: "Mario",
+                    gameSeries: "Super Mario",
+                    image: "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00000000-00000002.png"
+                },
+                {
+                    name: "Link",
+                    gameSeries: "The Legend of Zelda",
+                    image: "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01000000-00040001.png"
+                },
+                {
+                    name: "Pikachu",
+                    gameSeries: "Pokemon",
+                    image: "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_19000000-00030001.png"
+                }
+            ]);
+        });
+}, []);
 
     useEffect(() => {
         if (isPlaying) {
