@@ -24,6 +24,7 @@ const Header = () => {
         <Link to="/introduction">Introduction Page</Link> | 
         <Link to="/website_evaluations">Website Evaluations</Link> | 
         <Link to="/hobby">Hobby</Link>
+        <Link to="/slideshow">Slideshow</Link>
       </nav>
     </header>
   );
