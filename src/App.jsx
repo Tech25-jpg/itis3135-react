@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
-import Slideshow from './pages/Slideshow';
+import Slideshow from './components/Slideshow';
 
 const Home = () => (
   <div>
@@ -50,6 +50,7 @@ function App() {
           <Route path="/website_evaluations" element={<Evaluations />} />
           <Route path="/hobby" element={<Hobby />} />
           <Route path="/fcc" element={<FccCerts />} />
+          <Route path="/slideshow" element={<Slideshow />} />
           {/*Adding extra routes here later */}
         </Routes>
       </main>
